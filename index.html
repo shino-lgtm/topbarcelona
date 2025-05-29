@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Barcelona Trip</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #e0f7f7;
+      margin: 0;
+      padding: 30px 15px;
+      text-align: center;
+      color: #333;
+    }
+    h1 {
+      color: #008c99;
+      margin-bottom: 30px;
+    }
+    .card-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .card a {
+      color: #008c99;
+      font-size: 1.3em;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .card p {
+      margin: 10px 0 0;
+    }
+    @media (min-width: 600px) {
+      .card-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .card {
+        width: 280px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>🌍 Barcelona Trip</h1>
+  <div class="card-container">
+    <div class="card">
+      <a href="https://shino-lgtm.github.io/barcelona/" target="_blank">🏖️ バルセロナ観光</a>
+      <p>バルセロナの見どころを写真で紹介</p>
+    </div>
+    <div class="card">
+      <a href="https://shino-lgtm.github.io/spain2/" target="_blank">🇪🇸 スペイン旅行日程</a>
+      <p>旅行の全日程と計画が見られる便利ページ</p>
+    </div>
+    <div class="card">
+      <a href="https://shino-lgtm.github.io/belongings/" target="_blank">🧳 持ち物チェックリスト</a>
+      <p>旅行前の持ち物確認＆追加可能なリスト</p>
+    </div>
+  </div>
+</body>
+</html>
